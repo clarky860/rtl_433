@@ -127,7 +127,7 @@ mappings = {
             "state_class": "measurement"
         }
     },
-    "temperature_1_C": {
+    "temperature_C": {
         "device_type": "sensor",
         "object_suffix": "T1",
         "config": {
@@ -261,13 +261,13 @@ mappings = {
         }
     },
 
-    "pressure_hPa": {
+    "pressure_PSI": {
         "device_type": "sensor",
         "object_suffix": "P",
         "config": {
             "device_class": "pressure",
             "name": "Pressure",
-            "unit_of_measurement": "hPa",
+            "unit_of_measurement": "PSI",
             "value_template": "{{ value|float }}",
             "state_class": "measurement"
         }
